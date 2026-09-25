@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+output/
+*.p
+*.joblib
+# datasets are downloaded separately (see README)
+*.csv
+!ukm_dataset.csv
+!dataset_intervensi_stunting_revisi.csv
+!submission_predictHouse.csv
+clf-data/
